@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Test",
+    "slug": "test",
+    "description": "test",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "test",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.foo.bar",
+      "versionCode": 100,
+      "softwareKeyboardLayoutMode" : "pan"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foo.bar",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera",
+        "NSPhotoLibraryUsageDescription": "This app needs access to camera roll"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
